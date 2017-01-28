@@ -19,15 +19,15 @@ multiArray
 	['1-0','1-1','1-2'],
 	['2-0','2-1','2-2']];</pre>
 <br> It's define new two dimentional array called multiArray <br>
-###console.log(multiArray[0][2]);
+<pre>console.log(multiArray[0][2]);</pre>
 It's show the value of multiArray with index number 0 and 2. The value is '0-2'
-###console.log(multiArray[1][2]);
+<pre>console.log(multiArray[1][2]);</pre>
 It's show the value of multiArray with index number 1 and 2. The value is '1-2'
 
 ##boolean.js
-###var isActive = true;
+<pre>var isActive = true;</pre>
 it's declare and define the new boolean variable called isActive with value true
-###console.log("Current status: " + isActive);
+<pre>console.log("Current status: " + isActive);</pre>
 It's show the sentence "Current status : " and the valueof isActive variable
 
 ##breakContinue.js
@@ -113,4 +113,30 @@ console.log("fpKedua: " + fpKedua);
 console.log("fpKetiga: " + fpKetiga);
 console.log("fpKeempat: " + fpKeempat);
 </pre>
-floating Point is the decimal fraction number and javascript can store it in variable without declare the type of variable. 
+floating Point is the decimal fraction number and javascript can store it in variable without declare the type of variable.
+
+##forIn.js
+<pre>
+var data = {a:1, b:2, c:3};
+
+for (var iterasi in data) {
+  console.log("Nilai dari iterasi " + iterasi + " adalah: " + data[iterasi]);
+}
+</pre>
+iterasi variable will be store the attibute in data object
+
+##for.js
+<pre>
+for (var i = 0; i < 9; i++) {
+	console.log(i);
+}
+</pre>
+the for loop will executed when the i lower than 9 or if the condition are met
+
+##fungsiAnonim.js
+<pre>
+var pangkat = function(angka) {return angka * angka};
+console.log(pangkat(10));
+</pre>
+the pangkat variable contains a function and when the function executed, the return value will be stored
+in pangkat variable
