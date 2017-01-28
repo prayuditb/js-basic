@@ -31,7 +31,7 @@ it's declare and define the new boolean variable called isActive with value true
 It's show the sentence "Current status : " and the valueof isActive variable
 
 ##breakContinue.js
-<code>
+<pre>
 var n = 0;
 var x = 0;
 
@@ -51,12 +51,12 @@ while (n < 5) {
 	console.log("Nilai x = " + x);
 
 };
-</code>
+</pre>
 when 'continue' executed, the loop will continue to next iteration <br>
 and when the 'break' executed, the loop will be stopped.<br>
 
 ##breakWithLabel.js
-<code>
+<pre>
 topLabel:
 	for(var k = 0; k < 10; k++){
 		for(var m = 0; m < 20; m++){
@@ -67,11 +67,11 @@ topLabel:
 			}
 		}
 	}
-</code>
+</pre>
 The break statement will stop the iteration of first 'for' loop labeled with topLabel
 
 ##const.js
-<code>
+<pre>
 const MENU = "Home";
 
 console.log("Posisi menu = " + MENU);
@@ -84,5 +84,5 @@ console.log("Posisi menu = " + MENU);
 
 // Posisi menu = Home
 // Posisi menu = Home
-</code>
+</pre>
 the const can not be change after its defined, changing the value of const can make an error
