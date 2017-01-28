@@ -1,19 +1,19 @@
 #Prayudi
 
 ##array.js
-###arrMembers = ['one','two',,'three',];
+<pre>arrMembers = ['one','two',,'three',];</pre>
 it's define new array variable called arrMembers
-###console.log(arrMembers[0]);
+<pre>console.log(arrMembers[0]);</pre>
 it's show the value of arrMembers with index number 0 and the value is 'one'
-###console.log(arrMembers[2]);
+<pre>console.log(arrMembers[2]);</pre>
 it'show the "undefined" because the value of arrMembers with index number2 is undefined
-###console.log(arrMembers[3]);
+<pre>console.log(arrMembers[3]);</pre>
 it's show the value of arrMembers with index number 3 and the value is 'three'
-###console.log(arrMembers[4]);
+<pre>console.log(arrMembers[4]);</pre>
 it'show the "undefined" because the value of arrMembers with index number 4 is undefined
-###console.log(arrMembers.length);
+<pre>console.log(arrMembers.length);</pre>
 it's show the total index of arrMembers
-###multiArray
+multiArray
 <pre>var multiArray = [
 	['0-0','0-1','0-2'],
 	['1-0','1-1','1-2'],
@@ -81,8 +81,36 @@ console.log("Posisi menu = " + MENU);
 MENU = "About";
 
 console.log("Posisi menu = " + MENU);
-
-// Posisi menu = Home
-// Posisi menu = Home
 </pre>
 the const can not be change after its defined, changing the value of const can make an error
+
+##doWhile.js
+<pre>
+var i = 0;
+do {
+	i += 2;
+	console.log(i);
+} while (i < 20);
+</pre>
+the statement in 'do' section will be executed before check the condition in while section.<br>
+it's mean, the minimum iteration when using 'do while' is once.
+
+##dynamic.js
+<pre>
+var jumlahMahasiswa = 30
+console.log('Jumlah mahasiswa dalam satu kelas = ' + jumlahMahasiswa);
+</pre>
+the type of variable in javascript can be change automatically, such as the number chenged to string when its called by console.log()
+##floatingPoint.js
+<pre>
+var fpPertama = 3.1415926,
+    fpKedua = -.123456789,
+    fpKetiga = -3.1E+12,
+    fpKeempat = .1e-20;
+
+console.log("fpPertama: " + fpPertama);
+console.log("fpKedua: " + fpKedua);
+console.log("fpKetiga: " + fpKetiga);
+console.log("fpKeempat: " + fpKeempat);
+</pre>
+floating Point is the decimal fraction number and javascript can store it in variable without declare the type of variable. 
